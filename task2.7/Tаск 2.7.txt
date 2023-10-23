@@ -1,0 +1,126 @@
+TASK 2.7:
+
+Step 1: What Users Should Be Able to Search For:
+
+Recipe Title: Users can search for recipes based on specific keywords in the title.
+Ingredient: Users can search for recipes based on specific ingredient.
+
+What Would the Output Look Like:
+
+Filtered Recipe List: The output will be a filtered recipe list showing all recipes that match the submitted search criteria, including title, ingredient.
+
+DATA ANALYSIS:
+
+Bar Chart (Horizontal Bar Chart):
+X-axis: Recipe Name
+Y-axis: Cooking Time
+Description: Display a horizontal bar chart that shows each recipe's name on the x-axis and its cooking time on the y-axis. This chart provides a visual comparison of cooking times for different recipes.
+
+Pie Chart:
+
+Description: Create a pie chart to represent the percentage of time it takes to cook each recipe in comparison to each other. This pie chart will illustrate the distribution of cooking times among the available recipes.
+
+Line Chart:
+X-axis: Recipe Name
+Y-axis: Cooking Time
+Description: Construct a line chart that plots each recipe's name on the x-axis and its cooking time on the y-axis. This chart allows you to visualize any trends or patterns related to cooking times across recipes.
+
+EXECUTION FLOW:
+
+User Registration:
+If the user is not registered, they can navigate to the registration page, fill out the form, and upon successful registration, they are redirected to the homepage.
+
+User Login:
+If the user is already registered, they have two login options: i) directly from the homepage or ii) through the login option in the navbar. After logging in, they are redirected to the homepage.
+
+Homepage:
+Upon successful login, the user lands on the homepage.
+
+Recipe Search:
+The user can search for recipes by entering keywords related to the recipe title or specific ingredients. The homepage displays search results based on the entered criteria.
+
+Search Results with Chart:
+The user sees the search results along with an associated chart, such as a horizontal bar chart or pie chart, representing relevant data from the search results.
+
+Scroll and Explore (Recipes):
+The user can scroll through the recipes, exploring various recipes and their details.
+
+Recipe Management (Profile):
+The logged-in user can create, read, update, and delete their own recipes from their profile section.
+
+Account Management (Profile):
+The user can read, update, or delete their account information from the profile section.
+
+Logout:
+The user can log out of their account, ending their session securely.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++-----------------------+
+|       Homepage        |
++-----------+-----------+
+             |
+             | Clicks "Log In"
+             v
++-----------+-----------+
+|    Log In Page        |
++-----------+-----------+
+             |
+             | Submits login details
+             v
++-----------+-----------+
+|   Recipes Dashboard      |
++-----------+-----------+
+             |
+             | Enters recipe name or ingredient(±difficulty)
+             v
++-----------+-----------+
+|   Recipe Search       |
++-----------+-----------+
+             |
+             | Displays search results
+             v
++-----------+-----------+
+|   Search Results      |
++-----------+-----------+
+             |
+             | Clicks on a recipe
+             v
++-----------+-----------+
+|   Recipe Details      |
++-----------+-----------+
+             |
+             | Clicks "Log Out"
+             v
++-----------+-----------+
+|   Logout Page         |
++-----------------------+
+
