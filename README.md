@@ -1,6 +1,6 @@
 # cf-python-django
  
-## Learning Journal - Achievement 2 Tasks
+## Learning Journal - Achievement 2
 
 This repository comprises eight tasks associated with the Django Recipe App, complemented by a comprehensive learning journal for consideration by CF mentors. These tasks explore diverse facets of Django development, encompassing concepts, project structuring, and deployment.
 
